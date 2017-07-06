@@ -2,18 +2,20 @@ body {
   color: #2d3c49;
 }
 
-p, a, h3, .author{
-  /*font-family: 'Lobster', cursive;*/
-  font-family: 'Raleway', sans-serif;
+p, 
+a, 
+h3, 
+.author {
+  font-family: "Raleway", sans-serif;
 }
 
 p {
   padding-top: 20px;
 }
 
- .proj-name, .sub-title {
-  /*font-family: 'Shadows Into Light', cursive;*/
-  font-family: 'Open Sans', sans-serif;
+ .proj-name, 
+ .sub-title {
+  font-family: "Open Sans", sans-serif;
 }
 
 .author {
@@ -32,7 +34,7 @@ p {
   margin-bottom: 50px;
 }
 
-img.avatar {
+.avatar {
   max-height: 150px;
   border-radius: 50%;
 }
@@ -43,7 +45,6 @@ img.avatar {
 }
 
 .col-md-4 img {
-  /*border-radius: 50%;*/
   -webkit-transition: -webkit-transform .5s ease-in-out;
   transition: transform .5s ease-in-out;
   max-height: 300px;
@@ -93,5 +94,8 @@ img.avatar {
     display: block;
     margin: 0 auto;
     max-height: 70px;
+  }
+  .col-md-4 img {
+    max-height: 200px;
   }
 }
