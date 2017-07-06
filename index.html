@@ -5,21 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" async 
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
       crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
       rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
       crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" async 
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
       crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:100,400" rel="stylesheet">
   </head>
 
   <body class="container">
-    <header>
-      <div class="row">
+    <header class="row">
         <div class="col-md-6 center-me">
           <img class="img-responsive avatar" 
             src="img/logo.svg" 
@@ -29,11 +28,12 @@
           <h1 class="author">Andy Hsiang</h1>
           <h3 class="rank">Front-end NINJA</h3>
         </div>
-      </div>
     </header>
 
-    <hr class="hr"/>
-
+    <div class="row">
+      <hr class="hr"/>
+    </div>
+    
       <section class="main-section">
         <div class="row">
           <div class="col-md-12 center-img">
@@ -49,7 +49,9 @@
 
       <section class="featured-work-section">
         <div class="row">
-          <h2 class="col-md-12 sub-title">Featured Work</h2>
+          <div class="col-md-12">
+            <h2 class="sub-title">Featured Work</h2>
+          </div>
         </div>
 
         <div class="row add-bottom-space">
